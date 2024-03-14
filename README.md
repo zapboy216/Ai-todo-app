@@ -21,3 +21,12 @@ npm run dev
 ## Open the demo
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+## The Copilot-Specific parts of the code:
+
+1. Notice `<CopilotKit />` and `<CopilotPopup />` in `page.tsx`
+
+2. Notice `useMakeCopilotReadable` in `page.tsx`
+
+3. Notice the 2 `useCopilotAction` in `page.tsx`
