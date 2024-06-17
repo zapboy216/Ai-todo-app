@@ -1,9 +1,8 @@
 "use client";
 
-import { TodoItem } from "@/components/TodoItem";
 import { nanoid } from "nanoid";
 import { useState } from "react";
-import { Todo } from "../types/todo";
+
 
 /**
  *
@@ -22,8 +21,7 @@ import "@copilotkit/react-ui/styles.css";
 export default function Home() {
   return (
     <div className="border rounded-md max-w-2xl mx-auto p-4">
-      <h1 className="text-2xl font-bold ">Hello CopilotKit 🪁</h1>
-      <h2 className="text-base font-base mb-4">Todo List Example</h2>
+     
 
       {/**
        *
@@ -32,7 +30,7 @@ export default function Home() {
        **/}
 
       <CopilotKit url="/api/copilotkit/">
-        <TodoList />
+        
 
         {/**
          *
@@ -47,8 +45,8 @@ export default function Home() {
           }
           defaultOpen={true}
           labels={{
-            title: "Todo List Copilot",
-            initial: "Hi you! 👋 I can help you manage your todo list.",
+            title: "AI Copilot",
+            initial: "Hi you! 👋 I can help you manage your life.",
           }}
           clickOutsideToClose={false}
         />
